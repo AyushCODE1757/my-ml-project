@@ -24,7 +24,6 @@ This project predicts the **Fire Weather Index (FWI)** using meteorological and 
 - Python 3.x
 - Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn
 - Ridge Regression (from `sklearn.linear_model`)
-- Streamlit (for user interface, if applicable)
 
 ---
 
@@ -36,17 +35,29 @@ Algerian Forest Fire Dataset: [UCI Machine Learning Repository](https://archive.
 
 ## ⚙️ How to Run
 
-1. Clone this repository
-2. Install dependencies:  
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/your-username/your-repo-name.git
+    cd your-repo-name
+   ```
+2.(Optional)Create a Virtual Environment:-
+  ```bash
+  python -m venv venv
+  ```
+  Activate it
+   
+3. Install dependencies:  
    ```bash
    pip install -r requirements.txt
    ```
-3. Run the application (if Streamlit used):  
+4. Run the Flask App:  
    ```bash
-   streamlit run app.py
+   python application.py
    ```
-4. Or, use the notebook to test locally
-
+   🛜BY default, the app runs on
+   http://localhost:5000
+5. Open in browser
+  Visit http://127.0.0.1:5000/predictdata
 ---
 
 ## 📷 Sample Input & Output
@@ -67,13 +78,6 @@ Algerian Forest Fire Dataset: [UCI Machine Learning Repository](https://archive.
 ## 📌 Educational Purpose
 
 > This project was created as part of an educational tutorial led by **Krish Naik**. It closely follows the model structure and methodology taught in the original video.
-
----
-
-## ⚖️ License
-
-This project is licensed under the [MIT License](LICENSE).  
-You are free to use, modify, and distribute it for personal or educational use.
 
 ---
 
