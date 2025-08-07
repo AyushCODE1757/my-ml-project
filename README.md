@@ -76,7 +76,7 @@ Algerian Forest Fire Dataset: [UCI Machine Learning Repository](https://archive.
 - Classes:- Fire
 
 **Output:**
-- Predicted FWI: `0.7754016798136201 (moderate fire danger)
+- Predicted FWI: 0.7754016798136201 (moderate fire danger)
 
 ---
 
