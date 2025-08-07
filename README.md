@@ -13,7 +13,9 @@ This project predicts the **Fire Weather Index (FWI)** using meteorological and 
   - WS (Wind Speed)
   - Rainfall (mm)
   - Region (Bejaia or Sidi-Bel Abbes)
-  - Date (month & day)
+  - Fine Fuel Moisture Code
+  - Duff Moisture Code
+  - Initial Spread index
 - Ridge Regression model for prediction of **Fire Weather Index (FWI)**
 - Preprocessing includes feature engineering & one-hot encoding
 
@@ -63,15 +65,18 @@ Algerian Forest Fire Dataset: [UCI Machine Learning Repository](https://archive.
 ## 📷 Sample Input & Output
 
 **Input:**
-- Temperature: 30°C
-- RH: 45%
-- WS: 20 km/h
+- Temperature: 29°C
+- RH: 57%
+- WS: 18 km/h
 - Rain: 0 mm
-- Region: Bejaia
-- Date: June 15
+- Region: Sidi-Bel Abbes
+- FFMC:-65.67
+- DMC-3.4
+- ISI-1.3
+- Classes:- Fire
 
 **Output:**
-- Predicted FWI: `18.34` (moderate fire danger)
+- Predicted FWI: `0.7754016798136201 (moderate fire danger)
 
 ---
 
