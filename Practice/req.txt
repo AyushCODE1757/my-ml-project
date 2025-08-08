@@ -1,9 +1,0 @@
-pandas
-numpy
-ipykernel
-scikit-learn
-matplotlib
-imblearn
-seaborn
-openpyxl
-statsmodels
